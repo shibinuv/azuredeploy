@@ -1,0 +1,585 @@
+<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="MasterPage.master.vb" Inherits="CARS.MasterPage" %>
+<%@ Register Assembly="DevExpress.Web.v21.2, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
+<%--<%@ Register Src="~/UserCtrl/ucTopBannerMain.ascx" TagName="ucTopBannerMain" TagPrefix="uc1" %>--%>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+    <title></title>
+    <style type="text/css">
+        
+
+
+    .clicked {
+  background-color: #00acac !important;
+}
+
+    /*TOPBAR STUFF*/
+
+    .light.following.bar {
+    padding: 0em 0em;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #DDDDDD;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.04);
+}
+
+    .following.bar {
+   
+    top: 0px;
+    z-index: 900;
+    left: 0%;
+    padding: 2em 0em;
+    width: 100%;
+    box-shadow: 0px 0px 0px 0px transparent;
+    border-bottom: 1px solid transparent;
+    transition: padding 0.5s ease, background 0.5s ease, box-shadow 0.5s ease, border 0.5s ease;
+}
+
+    .menuMain .dxm-popOut{
+        display:none !important;
+    }
+    span.count{
+        position:relative;
+        top:-3px;
+        color: red;
+    }
+    </style>
+   <script>
+        var getUrlParameter = function getUrlParameter(sParam) {
+           var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+               sURLVariables = sPageURL.split('&'),
+               sParameterName,
+               i;
+
+           for (i = 0; i < sURLVariables.length; i++) {
+               sParameterName = sURLVariables[i].split('=');
+
+               if (sParameterName[0] === sParam) {
+                   return sParameterName[1] === undefined ? true : sParameterName[1];
+               }
+           }
+        };
+       /* The code below:
+          Not sure why this is located in Masterpage.
+          adds/removes some css in cars.css from frmcustomerdetail.aspx (f.example when clicking more details)
+       */
+       var pageNameFrom = getUrlParameter('pageName');
+       if (pageNameFrom == "OrderHead" || pageNameFrom == "Vehicle" || pageNameFrom == "LACodeList" || pageNameFrom == "JobDetails"/*|| pageNameFrom == "SpareInfo"*/)
+       {
+           document.querySelectorAll("html")[0].classList.add('hideNav');
+       }
+      
+    </script>
+    <script src="<%# ResolveUrl("~/Scripts/jquery-2.1.4.min.js")%>"></script>
+    <script src="<%# ResolveUrl("~/javascripts/jquery-migrate-1.2.1.js")%>"></script>
+    <script src="<%# ResolveUrl("~/Scripts/jquery-ui-1.11.4.min.js")%>"></script>
+    <script src="<%# ResolveUrl("~/Scripts/datepicker-no.js")%>"></script>
+    <script src="<%# ResolveUrl("~/Scripts/semantic.min.js")%>"></script>
+    <script src="<%# ResolveUrl("~/Scripts/jqGrid/grid.locale-no.js")%>"></script>
+<%--    <script src="<%# ResolveUrl("~/Scripts/jquery.jqGrid.min.js")%>"></script>--%>
+<%--    <script src="<%# ResolveUrl("~/javascripts/jquery.jqGrid.js")%>"></script> --%>
+    <script src="<%# ResolveUrl("~/Scripts/jqGrid/jquery.jqGrid.min.js")%>"></script>
+    <script src="<%# ResolveUrl("~/Scripts/jqGrid/jquery.jqGrid.src.js")%>"></script>
+    <script src="<%# ResolveUrl("~/Scripts/cars.js")%>"></script>
+    <script src="<%# ResolveUrl("~/Scripts/Chart.js")%>"></script>
+    <link href="https://unpkg.com/tabulator-tables@4.2.5/dist/css/tabulator.min.css" rel="stylesheet"/>
+    <script type="text/javascript" src="https://unpkg.com/tabulator-tables@4.2.5/dist/js/tabulator.min.js"></script>
+    
+    <script type="text/javascript" src="https://unpkg.com/tabulator-tables@4.2.5/dist/js/jquery_wrapper.min.js"></script>
+    <script src="<%# ResolveUrl("~/javascripts/json2-min.js")%>"></script>
+    <script src="<%# ResolveUrl("~/javascripts/Msg.js")%>"></script>
+    <link href="<%# ResolveUrl("~/CSS/jquery-ui.css")%>" rel="stylesheet" type="text/css" />
+    <link href="<%# ResolveUrl("~/Content/ui.jqgrid.css")%>" rel="stylesheet" />
+    <link href="<%# ResolveUrl("~/Content/themes/base/all.css")%>" rel="stylesheet" />
+   <%-- <link href="<%# ResolveUrl("~/Content/semantic.min.css")%>" rel="stylesheet" />--%>
+    <link href="<%# ResolveUrl("~/Content/semantic.css")%>" rel="stylesheet" />
+    <link href="<%# ResolveUrl("~/CSS/Msg.css")%>" rel="stylesheet" type="text/css" />
+    <script src="<%# ResolveUrl("~/Scripts/jquery.contextMenu.min.js")%>"></script>
+    <link href="<%# ResolveUrl("~/CSS/jquery.contextMenu.min.css")%>" rel="stylesheet" type="text/css"  />
+     <script src="<%# ResolveUrl("~/Scripts/jquery-ui-1.12.1.js")%>"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.5/jspdf.min.js"></script>
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.0.5/jspdf.plugin.autotable.js"></script>
+   
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    
+    
+    <script src="<%# ResolveUrl("~/Scripts/jquery.signalR-2.4.3.min.js")%>"></script>
+    <script src="<%# ResolveUrl("~/Scripts/jquery.signalR-2.4.3.js")%>"></script>
+    <script src="<%# ResolveUrl("~/signalr/hubs")%>"></script>
+    <script>
+                                
+        $(document).ready(function () {
+            LoadLastSelectedItem();
+            $('#second').sidebar({
+                context: $('.otherstuff'),
+                exclusive: false
+
+            })
+
+            $('#mysidebar').sidebar({
+                context: $('.outerarea')
+            })
+
+            $('.ui.dropdown').dropdown();
+            
+            //$('#bell').popup({
+                
+            //    hoverable: true,
+
+            //})
+            
+                //$('#sendSMS').on('click', function (e) {
+                //    window.open("../Master/frmSendSMS.aspx");
+                //});
+            
+            $('.dropdown').dropdown({ transition: 'drop', on: 'hover' });
+
+            $('#sidebar_item_dashboard, #second >.item').on('click', function (e) {             
+                $(this).toggleClass('clicked');
+                sessionStorage.setItem("lastclick", "#" + $(this).closest('div').attr('id'))
+            });
+            
+            
+            $('#openmenu').on('click', function (e) {
+                $('#mysidebar').sidebar('toggle');
+            });
+            
+
+            // Store
+
+            // Retrieve
+            var r = sessionStorage.getItem("lastclick");
+            //$(r).toggleClass('clicked');
+                         
+
+            <%--loadInit();
+            function loadInit() {
+                pin("true", "true");
+            }
+            $('#pin').checkbox('attach events', '.toggle.button');
+            $('#pin').on('click', function () {
+                pin(pinned(), "false");
+                if ($("#pin").is(':checked')) {
+                    pin("true", "false");
+                }
+                else {
+                    pin("false", "false");
+                }
+            });
+            /* GENERAL FUNCTIONS */
+            $('#click').on('click', function (e) {
+                e.preventDefault();
+                e.stopPropagation();
+                $('#carsWrapper').toggleClass('on');
+            });
+            $('#carsSideBar #navigation > #on-hover').on('mouseover', function () {
+                $('#carsWrapper').addClass('on');
+            });
+            $('#carsSideBar #navigation').on('mouseleave', function () {
+                if (!pinned()) {
+                    $('#carsWrapper').removeClass('on');
+                }
+            });
+            function pinned($var) {
+                if ($("#pin").is(':checked')) {
+                    return true;
+                }
+                else {
+                    return false;
+                }
+            }
+            function pin(flg, fetch) {
+                var postData = "{'pinFlg': " + flg + ", 'pinFetch': " + fetch + "}";
+                $.ajax({
+                    type: "POST",
+                    contentType: "application/json; charset=utf-8",
+                    url: "<%# ResolveUrl("~/master/frmCFUserDetail.aspx/Pin_Switch_Check")%>",
+                    data: postData,
+                    dataType: "json",
+                    //async: false,//Very important
+                    success: function (data) {
+                        if (data.d === 1) {
+                            $('#pin').prop("checked", true);
+                            $('#carsWrapper').addClass('on');
+                        } else {
+                            $('#pin').prop("checked", false);
+                            $('#carsWrapper').removeClass('on');
+                        }
+
+                    },
+                    error: function (xhr, ajaxOptions, thrownError) {
+
+                    }
+                });
+            }--%>
+            //$('#a2').on('click', function (e) {
+            //    e.preventDefault();
+            //    e.stopPropagation();
+            //    var search_String = $(txt_Customer).val();
+            //    var searchId = $(txt_Customer).val();
+            //    var page = "../Transactions/frmWOSearchPopup.aspx?Search=Customer"
+            //    var $dialog = $('<div id="testdialog" style="width:100%;height:100%"></div>')
+            //                   .html('<iframe id="testifr" style="border: 0px; overflow:scroll" src="' + page + '" width="100%" height="100%"></iframe>')
+            //                   .dialog({
+            //                       autoOpen: false,
+            //                       modal: true,
+            //                       height: 700,
+            //                       width: 1100,
+            //                       title: "Kundesøk"
+            //                   });
+            //    $dialog.dialog('open');
+            //});
+            $(function () {
+                $('#notificationBell').click(function (e) {
+                    e.stopPropagation();
+                    $('#notiPopup').show();
+                    var count = 0;
+                    count = parseInt($('span.count').html()) || 0;
+                    //only load notification if not already loaded
+                    if (count > 0) {
+                        updateNotification();
+                    }
+                    else {
+                        $('#notiPopupList').empty();
+                        $('#notiPopupList').append($("<div class='item'><div class='content'><div class='description'><b>No new notifications</b></div></div></div>"));
+                    }
+                    $('span.count').html('&nbsp;');
+                });
+                $("#notiPopupList").click(function (e) {
+                    e.stopPropagation();
+                });
+
+                $('html').click(function () {
+                    $('#notiPopupList').empty();
+                    $('#notiPopup').hide();
+                });
+                // update notification
+                function updateNotification() {
+                    var mode = "SEEN";
+                    $('#notiPopupList').empty();
+                    $('#notiPopupList').append($('<li>Loading...</li>'));
+                    $.ajax({
+                        type: 'POST',
+                        contentType: "application/json; charset=utf-8",
+                        url: '../Transactions/frmWOSearch.aspx/GetNotificationDetails',
+                        data: "{'mode':'" + mode + "'}",
+                        dataType: "json",
+                        async: false,//Very important
+                        success: function (response) {
+                            $('#notiPopupList').empty();
+                            response = response.d;
+                            if (response.length == 0) {
+                                $('#notiPopupList').append($('<li>No data available</li>'));
+                            }
+                            $.each(response, function (index, value) {
+                                var WONo = value.WO_NO;
+                                var WOPrefix = value.WO_PREFIX;
+                                var link = "../Transactions/frmWOJobDetails.aspx?Wonumber=" + WONo + "&WOPrefix=" + WOPrefix + "&Mode=Edit&TabId=2&Flag=Ser&blWOsearch=true";
+                                var notificationMessage = value.NotificationMessage + " for OrderNo. <a  href='" + link + "'><b>" + WOPrefix + WONo+"</b></a>";
+                                if (index != 0 && index != response.length) {
+                                    $('#notiPopupList').append($('<br/><div class="ui divider"></div>'));
+                                }
+                                $('#notiPopupList').append($("<div class='item'><div class='content'><span class='time' style='color: red;'></span><div class='description'>" + notificationMessage +"</div></div></div>"));
+
+                            });
+                        },
+                        error: function (error) {
+                            console.log(error);
+                        }
+                    })
+                }
+
+                // update notification count
+                function updateNotificationCount() {
+                    var count = 0;
+                    count = parseInt($('span.count').html()) || 0;
+                    count++;
+                    $('span.count').html(count);
+                }
+
+                // signalr js code for start hub and send receive notification
+                var notificationHub = $.connection.notificationHub;
+                $.connection.hub.start().done(function () {
+                    console.log('Master Notification hub started');
+                    getInitialNotificationCount();
+                });
+
+                //signalr method for push server message to client
+                notificationHub.client.notify = function (message) {
+                    console.log('Master Notification added');
+                    if (message && message.toLowerCase() == "added") {
+                        updateNotificationCount();
+                    }
+                }
+
+                function getInitialNotificationCount() {
+                    var mode = "COUNT";
+                    $.ajax({
+                        type: 'POST',
+                        contentType: "application/json; charset=utf-8",
+                        url: '../Transactions/frmWOSearch.aspx/GetNotificationDetails',
+                        data: "{'mode':'" + mode + "'}",
+                        dataType: "json",
+                        async: false,//Very important
+                        success: function (response) {
+                            response = response.d;
+                            if (response.length == 0) {
+                                $('span.count').html('&nbsp;');
+                            }
+                            else {
+                                var count = response.length;
+                                $('span.count').html(count);
+                            }
+                        },
+                        error: function (error) {
+                            console.log(error);
+                        }
+                    })
+                }
+                
+            });
+        });
+        function OnValueChanged(s, e) {
+            lblCurrLang.SetText(cbSelectLanguage.GetText());
+            callbackLanguage.PerformCallback(cbSelectLanguage.GetValue());
+        }
+
+        //function to save the last clicked menu item's information
+        function  OnMenuBarItemClick(s, e)
+        {
+            console.log(e.item.parent);
+            if (e.item.parent != null) {
+                if (e.item.parent.index != 0) {
+                    // Checking if the selected Menu is a Root Menu item or not
+                    if (e.item.parent.parent != null && e.item.parent.name == "") {
+                        s.SetSelectedItem(e.item.parent.parent);
+                        sessionStorage.setItem("lastclickedItem", e.item.parent.parent.name.toString());
+                    }
+                    else {
+                        s.SetSelectedItem(e.item.parent);
+                        sessionStorage.setItem("lastclickedItem", e.item.parent.name.toString());
+                    }
+                }
+                else {
+                    // Checking if the selected Menu is a Home Menu or not
+                    if (e.item.name == "Home") {
+                        sessionStorage.setItem("lastclickedItem", "Home");
+                    }
+                    else {
+                        //Checking if the selected Menu is a SubMenu item or not
+                        if (e.item.parent.parent != null && e.item.parent.name == "") {
+                            s.SetSelectedItem(e.item.parent.parent);
+                            sessionStorage.setItem("lastclickedItem", e.item.parent.parent.name.toString());
+                        }
+                    }
+                }
+            }
+        }
+        // Function to check if the last clicked menu information is available.If yes then highlight the Menu in the page
+        function LoadLastSelectedItem() {
+            var lstClkItem = sessionStorage.getItem("lastclickedItem");
+            if (lstClkItem != null) {
+                var item = mMain.GetItemByName(lstClkItem);
+                if (item != null) {
+                    mMain.SetSelectedItem(item);
+                }
+            }
+        }
+    </script>
+</head>
+<body id="example">
+    <form id="form1" runat="server">    
+
+
+        <asp:HiddenField ID="hdnLstClkItemName" runat="server" />
+        <dx:ASPxHiddenField ID="hdnLastClickedItem" ClientInstanceName="hdnLastClickedItem" runat="server"></dx:ASPxHiddenField>
+        <div class="outerarea">
+            <div class="ui top push sidebar ui segment" id="mysidebar">
+                <div class="ui center aligned page grid">
+                    <div class="ui large header" style="margin-top:2rem;">MENY</div>
+                    <div class="six column row">
+                    <div class=" column">
+                        <div class="ui medium header">Innstillinger</div>
+                        <div class="ui link list">
+                             <a class="item" href="master/frmCfGeneral.aspx" runat="server">Generelt</a>
+                            <a class="item" href="master/frmUpZipCodes.aspx" runat="server">Oppdater postnr</a>
+                            <a class="item" href="master/frmCfMechComp.aspx" runat="server">Mekanikerkompetanse</a>
+                            <a class="item" href="master/frmCfHourlyPrice.aspx" runat="server">Timepris</a>
+                            <a class="item" href="master/frmCfEnvFeesSettings.aspx" runat="server">Milj&#248avgift</a>
+                            <%--<a class="item" href="master/WebForm1.aspx" runat="server">Test</a>--%>
+                            <a class="item" href="master/frmConfigGeneral.aspx" runat="server">Config General</a>
+                            <a class="item" href="master/frmCfVatSettings.aspx" runat="server">VAT Settings</a>
+                        </div>
+                    </div>
+                    <div class=" column">
+                        <div class="ui medium header">Verkt&#248y</div>
+                        <div class="ui link list">
+                            <a class="item" style="text-decoration: line-through;">Beholdningsendring</a>
+                            <a class="item" style="text-decoration: line-through;">Non-stock prisoppdatering</a>
+                            <a class="item" style="text-decoration: line-through;">Samlefakturering.</a>
+                            <a class="item" style="text-decoration: line-through;">Multifakturering</a>
+                            <a class="item" style="text-decoration: line-through;">Hent ut data</a>
+                        </div>
+                    </div>
+                    <div class=" column">
+                        <div class="ui small header">Regnskap</div>
+                        <div class="ui link list">
+                           <a class="item" href="Transactions/frmLAExport.aspx" runat="server">Overf&#248r journal</a>
+                            <a class="item" href="Transactions/frmLACodeList.aspx" runat="server">Kontoplan</a>
+                            <a class="item" style="text-decoration: line-through;">Regnskapsrapport</a>
+                            <a class="item" style="text-decoration: line-through;">Annet</a>
+                        </div>
+                    </div>
+                    <div class=" column">
+                        <div class="ui small header">Large Header</div>
+                        <div class="ui link list">
+                            <a class="item" style="text-decoration: line-through;">Home</a>
+                            <a class="item" style="text-decoration: line-through;">About</a>
+                            <a class="item" style="text-decoration: line-through;">Jobs</a>
+                            <a class="item" style="text-decoration: line-through;">Team</a>
+                        </div>
+                    </div>
+                         <div class=" column">
+                        <div class="ui small header">Firmainnstillinger</div>
+                        <div class="ui link list">
+                            <a class="item" href="master/frmCfSubsidiary.aspx" runat="server">Firma</a>
+                            <a class="item" href="master/frmCfDepartment.aspx" runat="server">Avdeling</a>
+                            <%--<a class="item" href="master/frmCfRoles.aspx" runat="server">Roller</a>--%>
+                            <a class="item" href="master/frmConfigRoles.aspx" runat="server">Roller</a>
+                        </div>
+                    </div>
+                        <div class=" column">
+                        <div class="ui small header">Hjelp</div>
+                        <div class="ui link list">
+                           <asp:Label ID="RTLblVersion" runat="server"  Text="Version: "></asp:Label><asp:Label ID="RTlblver" runat="server" Text="4.5"></asp:Label>
+                            <a class="item" style="text-decoration: line-through;">About</a>
+                            <a class="item" style="text-decoration: line-through;">Jobs</a>
+                            <a href="https://download.teamviewer.com/download/TeamViewerQS.exe" class="item">TeamViewer</a>
+                           
+                        </div>
+                    </div>
+
+                        <div class="ui vertical divider">
+    
+  </div>
+                        </div>
+                </div>
+            </div>
+            <div class="pusher">
+                <div class="following bar light" >
+
+                    <div class="ui large  secondary network menu" id="mainHeader">
+                        <div class="item">
+                            <div class="ui logo shape">
+                                <div class="sides">
+                                    <div class="active ui side">
+                                        <img class="ui image" src="../Images/cars_logo-3.png" style="width: 70px; height: 40px;" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <a class="view-ui item" id="openmenu">
+                            <i class="sidebar icon"></i>Meny
+                        </a>
+                        <div class="right menu">
+                            <div class="item" style="margin-right: 5rem;">
+                                 <a class="item" href="./master/frmSendSMS.aspx" runat="server">  <i class="fas fa-sms" id="sendSMS" data-position="bottom left" style="font-size: 30px"></i></a>
+                              
+                                <a class="item" id="notificationBell"><i class="fas fa-bell " id="bell" data-position="bottom left" style="font-size: 24px"></i> <span class="count">&nbsp;</span></a>
+
+                                <div class="ui wide notification popup bottom center transition " id="notiPopup" style="top:90%;left:-10%">
+                                    <div class="ui link celled selection list" style="width: 200px;" id="notiPopupList">                                       
+                                      
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="ui right dropdown item">
+                                <%-- <div class="tbCurrLang"><asp:Label ID="lblCurrLang" runat="server" Text="Norwegian"></asp:Label></div>--%>
+                                 <div>
+                                 <dx:ASPxLabel ID="lblCurrLang" ClientVisible="false" ClientInstanceName="lblCurrLang" runat="server" Text="Norwegian"></dx:ASPxLabel>
+                                 <dx:ASPxComboBox ID="cbSelectLanguage" Border-BorderStyle="None" ClientInstanceName="cbSelectLanguage" runat="server" Theme="Metropolis" ClientSideEvents-ValueChanged="OnValueChanged" ShowImageInEditBox="true" Width="10px" >
+                                     <Items>
+                                         <dx:ListEditItem Text="" ImageUrl="/Images/NO.png" Value="nb-NO" Selected="true" />
+                                         <dx:ListEditItem Text="" ImageUrl="/Images/UK.png" Value="en-US"/>
+                                         <%--<dx:ListEditItem Text="" ImageUrl="/Images/LT.png" Value="en-US"/>--%>
+                                     </Items>
+                                 </dx:ASPxComboBox>
+                                     </div>
+                                 <dx:ASPxCallback ID="callbackLanguage" ClientInstanceName="callbackLanguage" runat="server" OnCallback="callbackLanguage_Callback"></dx:ASPxCallback>
+
+                                <%-- <div class="tbTest"></div>
+                                 
+                                    <i class="dropdown icon"></i>
+                                <div class=" menu">
+                                    <a class="item"  runat="server">Norwegian</a>
+                                    <a class="item"  runat="server">English</a>
+                                </div>--%>
+                              </div>
+                            <div class="ui right dropdown item">
+                                <div class="image">
+                                    <i class="user icon"></i>
+                                   <%-- <img src="../Images/Sten-Roger.jpg" alt="" style="width: 30px; border-radius: 50%; margin-right: 0.5rem" />--%>
+                                </div>
+                               <div class="tbUser"><asp:Label ID="RTLblUser" runat="server" Text="pv45"></asp:Label></div>
+                                 
+                                    <i class="dropdown icon"></i>
+                                <div class=" menu">
+                                    <a class="item" href="master/frmCfUserdetail.aspx" runat="server">Brukerinnstillinger</a>
+                                    <div class="item tbLogOut"><asp:HyperLink runat="Server" ID="hlnkMSGLogout">Logg ut</asp:HyperLink></div>    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="otherstuff">
+                    <div class="ui left visible vertical inverted sidebar labeled icon menu" id="second">
+                        </div>
+
+                <div id="menuContainer" class="menuContainer">
+                    <dx:ASPxCallbackPanel ID="cbMenu" ClientInstanceName="cbMenu" runat="server">
+                        <PanelCollection>
+                            <dx:PanelContent>
+                                <dx:ASPxMenu ID="mMain" ClientInstanceName="mMain" runat="server" AllowSelectItem="true" ShowPopOutImages="True" SelectParentItem="false" ForeColor="White" Orientation="Vertical" CssClass="ui left visible vertical inverted sidebar labeled icon menu" Width="85px" AutoPostBack="false" EnableSubMenuScrolling="true" DisabledStyle-BackColor="#f5f2f2">
+                                    <SubMenuStyle CssClass="mainMenuPopup" ForeColor="Black" GutterWidth="0px" Border-BorderStyle="None"></SubMenuStyle>
+                                    <SubMenuItemStyle HoverStyle-Border-BorderStyle="None" SelectedStyle-Border-BorderStyle="None" HoverStyle-BackColor="#a8a8a7" ></SubMenuItemStyle>
+                                    <ClientSideEvents ItemClick="OnMenuBarItemClick"/>
+                                    <ItemStyle CssClass="menuMain" Border-BorderStyle="None" PopOutImageSpacing="0" SelectedStyle-BackColor="#00acac" HoverStyle-BackColor="#5c5ab0"/>
+                                </dx:ASPxMenu>
+                            </dx:PanelContent>
+                        </PanelCollection>
+                    </dx:ASPxCallbackPanel>
+
+                    </div>
+
+                    <div class="pusher" style="left: -200px;">
+
+                        <div id="systemMessage" class="ui message"></div>
+                        <%--         <uc1:ucTopBannerMain ID="UcTopBannerMain1" runat="server" />--%>
+
+
+                            <div id="carsContent">
+                                <asp:ContentPlaceHolder ID="cntMainPanel" runat="server" Visible="true">
+                                </asp:ContentPlaceHolder>
+                            </div>
+                        
+                       
+
+                    </div>
+                </div>
+            </div>
+        </div>
+         
+         
+
+
+         
+         </form>
+    
+</body>
+</html>

@@ -1,0 +1,2904 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnResetResource1.Value" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="btnStartCalculationResource1.Value" xml:space="preserve">
+    <value>Start Calculation</value>
+  </data>
+  <data name="cbAdvUpdateCostPriceResource1.Text" xml:space="preserve">
+    <value>Cost price</value>
+  </data>
+  <data name="cbAdvUpdateCostPriceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbAdvUpdateDescriptionResource1.Text" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="cbAdvUpdateDescriptionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbAdvUpdateDiscountResource1.Text" xml:space="preserve">
+    <value>Discount code</value>
+  </data>
+  <data name="cbAdvUpdateDiscountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbAdvUpdateNetPriceResource1.Text" xml:space="preserve">
+    <value>Net Price</value>
+  </data>
+  <data name="cbAdvUpdateNetPriceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbAdvUpdateNonStockResource1.Text" xml:space="preserve">
+    <value>Non-Stock</value>
+  </data>
+  <data name="cbAdvUpdateNonStockResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbAdvUpdateProductGroupResource1.Text" xml:space="preserve">
+    <value>Product group</value>
+  </data>
+  <data name="cbAdvUpdateProductGroupResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbCalculateBlockedArticleResource1.Text" xml:space="preserve">
+    <value>Calculate Blocked Articles</value>
+  </data>
+  <data name="cbCalculateBlockedArticleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbCalculatedBasedOnDisMatrixResource1.Text" xml:space="preserve">
+    <value>Calculate based on discount matrix</value>
+  </data>
+  <data name="cbCalculatedBasedOnDisMatrixResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbCategoryLoadResource1.LoadingPanelImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbCategoryLoadResource1.LoadingPanelImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbCategoryLoadResource1.LoadingPanelImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbCategoryLoadResource1.LoadingPanelImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbCategoryLoadResource1.SettingsLoadingPanel.Text" xml:space="preserve">
+    <value>Loading&amp;hellip;</value>
+  </data>
+  <data name="cbCategoryLoadResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbClassCodeResource1.LoadingPanelImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbClassCodeResource1.LoadingPanelImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbClassCodeResource1.LoadingPanelImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbClassCodeResource1.LoadingPanelImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbClassCodeResource1.SettingsLoadingPanel.Text" xml:space="preserve">
+    <value>Loading&amp;hellip;</value>
+  </data>
+  <data name="cbClassCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbCorrectCostPriceResource1.Text" xml:space="preserve">
+    <value>Korrigere kostpris</value>
+  </data>
+  <data name="cbCorrectCostPriceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbDiscountCodeResource1.LoadingPanelImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbDiscountCodeResource1.LoadingPanelImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbDiscountCodeResource1.LoadingPanelImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbDiscountCodeResource1.LoadingPanelImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbDiscountCodeResource1.SettingsLoadingPanel.Text" xml:space="preserve">
+    <value>Loading&amp;hellip;</value>
+  </data>
+  <data name="cbDiscountCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbLocationResource1.LoadingPanelImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbLocationResource1.LoadingPanelImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbLocationResource1.LoadingPanelImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbLocationResource1.LoadingPanelImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbLocationResource1.SettingsLoadingPanel.Text" xml:space="preserve">
+    <value>Loading&amp;hellip;</value>
+  </data>
+  <data name="cbLocationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbPartNoLoadResource1.LoadingPanelImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbPartNoLoadResource1.LoadingPanelImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbPartNoLoadResource1.LoadingPanelImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbPartNoLoadResource1.LoadingPanelImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbPartNoLoadResource1.SettingsLoadingPanel.Text" xml:space="preserve">
+    <value>Loading&amp;hellip;</value>
+  </data>
+  <data name="cbPartNoLoadResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbStartCalculationResource1.LoadingPanelImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbStartCalculationResource1.LoadingPanelImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbStartCalculationResource1.LoadingPanelImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbStartCalculationResource1.LoadingPanelImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbStartCalculationResource1.SettingsLoadingPanel.Text" xml:space="preserve">
+    <value>Loading&amp;hellip;</value>
+  </data>
+  <data name="cbStartCalculationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbSupplierFinanceResource1.Text" xml:space="preserve">
+    <value>Finance supplier</value>
+  </data>
+  <data name="cbSupplierFinanceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbSupplierInvJournalFTPResource1.Text" xml:space="preserve">
+    <value>Invoice journal to FTP</value>
+  </data>
+  <data name="cbSupplierInvJournalFTPResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbSupplierNonStockSaleResource1.Text" xml:space="preserve">
+    <value>Non-stock sale</value>
+  </data>
+  <data name="cbSupplierNonStockSaleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbSupplierRebuyAcceptedResource1.Text" xml:space="preserve">
+    <value>Return accepted</value>
+  </data>
+  <data name="cbSupplierRebuyAcceptedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbSupplierStockQtyDeliveredResource1.Text" xml:space="preserve">
+    <value>Stock qty delivered</value>
+  </data>
+  <data name="cbSupplierStockQtyDeliveredResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbWareHouseResource1.LoadingPanelImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbWareHouseResource1.LoadingPanelImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbWareHouseResource1.LoadingPanelImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbWareHouseResource1.LoadingPanelImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbWareHouseResource1.SettingsLoadingPanel.Text" xml:space="preserve">
+    <value>Loading&amp;hellip;</value>
+  </data>
+  <data name="cbWareHouseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkContactTypeResource1.Text" xml:space="preserve">
+    <value>Standard?</value>
+  </data>
+  <data name="chkContactTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkPrivOrSubResource1.Text" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="chkPrivOrSubResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkSameAddResource1.Text" xml:space="preserve">
+    <value>Same as visit address</value>
+  </data>
+  <data name="chkSameAddResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWashBillAddressResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWashBillAddressResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWashBornResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWashBornResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWashFirstNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWashFirstNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWashLastNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWashLastNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWashMiddleNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWashMiddleNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWashMobileResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWashMobileResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWashPhoneResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWashPhoneResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWashSsnNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWashSsnNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWashVisitAddressResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWashVisitAddressResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWashZipCodeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWashZipCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWashZipPlaceResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWashZipPlaceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddItemSelect" xml:space="preserve">
+    <value>-Select-</value>
+  </data>
+  <data name="ddlCatFromResource1.ButtonEditEllipsisImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatFromResource1.ButtonEditEllipsisImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatFromResource1.ButtonEditEllipsisImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatFromResource1.ButtonEditEllipsisImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatFromResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatFromResource1.CaptionSettings.OptionalMark" xml:space="preserve">
+    <value>(optional)</value>
+  </data>
+  <data name="ddlCatFromResource1.CaptionSettings.RequiredMark" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="ddlCatFromResource1.ClearButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatFromResource1.ClearButton.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatFromResource1.DisplayFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatFromResource1.DropDownApplyButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatFromResource1.DropDownButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatFromResource1.DropDownButton.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatFromResource1.DropDownCloseButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatFromResource1.HelpText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatFromResource1.ItemImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatFromResource1.ItemImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatFromResource1.ItemImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatFromResource1.ItemImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatFromResource1.LoadingPanelImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatFromResource1.LoadingPanelImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatFromResource1.LoadingPanelImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatFromResource1.LoadingPanelImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatFromResource1.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatFromResource1.NullValueItemDisplayText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatFromResource1.SettingsAdaptivity.ModalDropDownCaption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatFromResource1.SettingsLoadingPanel.Text" xml:space="preserve">
+    <value>Loading&amp;hellip;</value>
+  </data>
+  <data name="ddlCatFromResource1.TextFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatFromResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatFromResource1.ValidationSettings.ErrorText" xml:space="preserve">
+    <value>Invalid value</value>
+  </data>
+  <data name="ddlCatToResource1.ButtonEditEllipsisImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatToResource1.ButtonEditEllipsisImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatToResource1.ButtonEditEllipsisImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatToResource1.ButtonEditEllipsisImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatToResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatToResource1.CaptionSettings.OptionalMark" xml:space="preserve">
+    <value>(optional)</value>
+  </data>
+  <data name="ddlCatToResource1.CaptionSettings.RequiredMark" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="ddlCatToResource1.ClearButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatToResource1.ClearButton.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatToResource1.DisplayFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatToResource1.DropDownApplyButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatToResource1.DropDownButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatToResource1.DropDownButton.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatToResource1.DropDownCloseButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatToResource1.HelpText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatToResource1.ItemImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatToResource1.ItemImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatToResource1.ItemImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatToResource1.ItemImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatToResource1.LoadingPanelImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatToResource1.LoadingPanelImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatToResource1.LoadingPanelImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatToResource1.LoadingPanelImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatToResource1.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatToResource1.NullValueItemDisplayText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatToResource1.SettingsAdaptivity.ModalDropDownCaption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatToResource1.SettingsLoadingPanel.Text" xml:space="preserve">
+    <value>Loading&amp;hellip;</value>
+  </data>
+  <data name="ddlCatToResource1.TextFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatToResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCatToResource1.ValidationSettings.ErrorText" xml:space="preserve">
+    <value>Invalid value</value>
+  </data>
+  <data name="ddlClassCodeFromResource1.ButtonEditEllipsisImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeFromResource1.ButtonEditEllipsisImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeFromResource1.ButtonEditEllipsisImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeFromResource1.ButtonEditEllipsisImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeFromResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeFromResource1.CaptionSettings.OptionalMark" xml:space="preserve">
+    <value>(optional)</value>
+  </data>
+  <data name="ddlClassCodeFromResource1.CaptionSettings.RequiredMark" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="ddlClassCodeFromResource1.ClearButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeFromResource1.ClearButton.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeFromResource1.DisplayFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeFromResource1.DropDownApplyButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeFromResource1.DropDownButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeFromResource1.DropDownButton.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeFromResource1.DropDownCloseButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeFromResource1.HelpText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeFromResource1.ItemImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeFromResource1.ItemImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeFromResource1.ItemImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeFromResource1.ItemImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeFromResource1.LoadingPanelImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeFromResource1.LoadingPanelImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeFromResource1.LoadingPanelImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeFromResource1.LoadingPanelImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeFromResource1.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeFromResource1.NullValueItemDisplayText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeFromResource1.SettingsAdaptivity.ModalDropDownCaption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeFromResource1.SettingsLoadingPanel.Text" xml:space="preserve">
+    <value>Loading&amp;hellip;</value>
+  </data>
+  <data name="ddlClassCodeFromResource1.TextFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeFromResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeFromResource1.ValidationSettings.ErrorText" xml:space="preserve">
+    <value>Invalid value</value>
+  </data>
+  <data name="ddlClassCodeToResource1.ButtonEditEllipsisImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeToResource1.ButtonEditEllipsisImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeToResource1.ButtonEditEllipsisImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeToResource1.ButtonEditEllipsisImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeToResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeToResource1.CaptionSettings.OptionalMark" xml:space="preserve">
+    <value>(optional)</value>
+  </data>
+  <data name="ddlClassCodeToResource1.CaptionSettings.RequiredMark" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="ddlClassCodeToResource1.ClearButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeToResource1.ClearButton.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeToResource1.DisplayFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeToResource1.DropDownApplyButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeToResource1.DropDownButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeToResource1.DropDownButton.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeToResource1.DropDownCloseButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeToResource1.HelpText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeToResource1.ItemImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeToResource1.ItemImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeToResource1.ItemImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeToResource1.ItemImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeToResource1.LoadingPanelImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeToResource1.LoadingPanelImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeToResource1.LoadingPanelImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeToResource1.LoadingPanelImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeToResource1.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeToResource1.NullValueItemDisplayText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeToResource1.SettingsAdaptivity.ModalDropDownCaption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeToResource1.SettingsLoadingPanel.Text" xml:space="preserve">
+    <value>Loading&amp;hellip;</value>
+  </data>
+  <data name="ddlClassCodeToResource1.TextFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeToResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClassCodeToResource1.ValidationSettings.ErrorText" xml:space="preserve">
+    <value>Invalid value</value>
+  </data>
+  <data name="ddlDiscountCodeFromResource1.ButtonEditEllipsisImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeFromResource1.ButtonEditEllipsisImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeFromResource1.ButtonEditEllipsisImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeFromResource1.ButtonEditEllipsisImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeFromResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeFromResource1.CaptionSettings.OptionalMark" xml:space="preserve">
+    <value>(optional)</value>
+  </data>
+  <data name="ddlDiscountCodeFromResource1.CaptionSettings.RequiredMark" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="ddlDiscountCodeFromResource1.ClearButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeFromResource1.ClearButton.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeFromResource1.DisplayFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeFromResource1.DropDownApplyButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeFromResource1.DropDownButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeFromResource1.DropDownButton.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeFromResource1.DropDownCloseButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeFromResource1.HelpText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeFromResource1.ItemImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeFromResource1.ItemImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeFromResource1.ItemImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeFromResource1.ItemImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeFromResource1.LoadingPanelImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeFromResource1.LoadingPanelImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeFromResource1.LoadingPanelImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeFromResource1.LoadingPanelImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeFromResource1.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeFromResource1.NullValueItemDisplayText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeFromResource1.SettingsAdaptivity.ModalDropDownCaption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeFromResource1.SettingsLoadingPanel.Text" xml:space="preserve">
+    <value>Loading&amp;hellip;</value>
+  </data>
+  <data name="ddlDiscountCodeFromResource1.TextFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeFromResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeFromResource1.ValidationSettings.ErrorText" xml:space="preserve">
+    <value>Invalid value</value>
+  </data>
+  <data name="ddlDiscountCodeToResource1.ButtonEditEllipsisImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeToResource1.ButtonEditEllipsisImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeToResource1.ButtonEditEllipsisImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeToResource1.ButtonEditEllipsisImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeToResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeToResource1.CaptionSettings.OptionalMark" xml:space="preserve">
+    <value>(optional)</value>
+  </data>
+  <data name="ddlDiscountCodeToResource1.CaptionSettings.RequiredMark" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="ddlDiscountCodeToResource1.ClearButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeToResource1.ClearButton.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeToResource1.DisplayFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeToResource1.DropDownApplyButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeToResource1.DropDownButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeToResource1.DropDownButton.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeToResource1.DropDownCloseButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeToResource1.HelpText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeToResource1.ItemImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeToResource1.ItemImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeToResource1.ItemImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeToResource1.ItemImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeToResource1.LoadingPanelImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeToResource1.LoadingPanelImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeToResource1.LoadingPanelImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeToResource1.LoadingPanelImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeToResource1.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeToResource1.NullValueItemDisplayText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeToResource1.SettingsAdaptivity.ModalDropDownCaption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeToResource1.SettingsLoadingPanel.Text" xml:space="preserve">
+    <value>Loading&amp;hellip;</value>
+  </data>
+  <data name="ddlDiscountCodeToResource1.TextFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeToResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiscountCodeToResource1.ValidationSettings.ErrorText" xml:space="preserve">
+    <value>Invalid value</value>
+  </data>
+  <data name="ddlLocationFromResource1.ButtonEditEllipsisImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationFromResource1.ButtonEditEllipsisImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationFromResource1.ButtonEditEllipsisImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationFromResource1.ButtonEditEllipsisImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationFromResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationFromResource1.CaptionSettings.OptionalMark" xml:space="preserve">
+    <value>(optional)</value>
+  </data>
+  <data name="ddlLocationFromResource1.CaptionSettings.RequiredMark" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="ddlLocationFromResource1.ClearButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationFromResource1.ClearButton.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationFromResource1.DisplayFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationFromResource1.DropDownApplyButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationFromResource1.DropDownButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationFromResource1.DropDownButton.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationFromResource1.DropDownCloseButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationFromResource1.HelpText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationFromResource1.ItemImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationFromResource1.ItemImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationFromResource1.ItemImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationFromResource1.ItemImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationFromResource1.LoadingPanelImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationFromResource1.LoadingPanelImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationFromResource1.LoadingPanelImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationFromResource1.LoadingPanelImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationFromResource1.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationFromResource1.NullValueItemDisplayText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationFromResource1.SettingsAdaptivity.ModalDropDownCaption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationFromResource1.SettingsLoadingPanel.Text" xml:space="preserve">
+    <value>Loading&amp;hellip;</value>
+  </data>
+  <data name="ddlLocationFromResource1.TextFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationFromResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationFromResource1.ValidationSettings.ErrorText" xml:space="preserve">
+    <value>Invalid value</value>
+  </data>
+  <data name="ddlLocationToResource1.ButtonEditEllipsisImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationToResource1.ButtonEditEllipsisImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationToResource1.ButtonEditEllipsisImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationToResource1.ButtonEditEllipsisImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationToResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationToResource1.CaptionSettings.OptionalMark" xml:space="preserve">
+    <value>(optional)</value>
+  </data>
+  <data name="ddlLocationToResource1.CaptionSettings.RequiredMark" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="ddlLocationToResource1.ClearButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationToResource1.ClearButton.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationToResource1.DisplayFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationToResource1.DropDownApplyButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationToResource1.DropDownButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationToResource1.DropDownButton.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationToResource1.DropDownCloseButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationToResource1.HelpText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationToResource1.ItemImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationToResource1.ItemImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationToResource1.ItemImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationToResource1.ItemImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationToResource1.LoadingPanelImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationToResource1.LoadingPanelImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationToResource1.LoadingPanelImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationToResource1.LoadingPanelImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationToResource1.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationToResource1.NullValueItemDisplayText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationToResource1.SettingsAdaptivity.ModalDropDownCaption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationToResource1.SettingsLoadingPanel.Text" xml:space="preserve">
+    <value>Loading&amp;hellip;</value>
+  </data>
+  <data name="ddlLocationToResource1.TextFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationToResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationToResource1.ValidationSettings.ErrorText" xml:space="preserve">
+    <value>Invalid value</value>
+  </data>
+  <data name="ddlMakeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseFromResource1.ButtonEditEllipsisImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseFromResource1.ButtonEditEllipsisImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseFromResource1.ButtonEditEllipsisImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseFromResource1.ButtonEditEllipsisImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseFromResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseFromResource1.CaptionSettings.OptionalMark" xml:space="preserve">
+    <value>(optional)</value>
+  </data>
+  <data name="ddlWarehouseFromResource1.CaptionSettings.RequiredMark" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="ddlWarehouseFromResource1.ClearButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseFromResource1.ClearButton.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseFromResource1.DisplayFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseFromResource1.DropDownApplyButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseFromResource1.DropDownButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseFromResource1.DropDownButton.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseFromResource1.DropDownCloseButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseFromResource1.HelpText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseFromResource1.ItemImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseFromResource1.ItemImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseFromResource1.ItemImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseFromResource1.ItemImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseFromResource1.LoadingPanelImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseFromResource1.LoadingPanelImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseFromResource1.LoadingPanelImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseFromResource1.LoadingPanelImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseFromResource1.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseFromResource1.NullValueItemDisplayText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseFromResource1.SettingsAdaptivity.ModalDropDownCaption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseFromResource1.SettingsLoadingPanel.Text" xml:space="preserve">
+    <value>Loading&amp;hellip;</value>
+  </data>
+  <data name="ddlWarehouseFromResource1.TextFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseFromResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseFromResource1.ValidationSettings.ErrorText" xml:space="preserve">
+    <value>Invalid value</value>
+  </data>
+  <data name="ddlWarehouseToResource1.ButtonEditEllipsisImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseToResource1.ButtonEditEllipsisImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseToResource1.ButtonEditEllipsisImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseToResource1.ButtonEditEllipsisImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseToResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseToResource1.CaptionSettings.OptionalMark" xml:space="preserve">
+    <value>(optional)</value>
+  </data>
+  <data name="ddlWarehouseToResource1.CaptionSettings.RequiredMark" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="ddlWarehouseToResource1.ClearButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseToResource1.ClearButton.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseToResource1.DisplayFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseToResource1.DropDownApplyButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseToResource1.DropDownButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseToResource1.DropDownButton.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseToResource1.DropDownCloseButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseToResource1.HelpText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseToResource1.ItemImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseToResource1.ItemImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseToResource1.ItemImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseToResource1.ItemImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseToResource1.LoadingPanelImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseToResource1.LoadingPanelImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseToResource1.LoadingPanelImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseToResource1.LoadingPanelImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseToResource1.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseToResource1.NullValueItemDisplayText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseToResource1.SettingsAdaptivity.ModalDropDownCaption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseToResource1.SettingsLoadingPanel.Text" xml:space="preserve">
+    <value>Loading&amp;hellip;</value>
+  </data>
+  <data name="ddlWarehouseToResource1.TextFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseToResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWarehouseToResource1.ValidationSettings.ErrorText" xml:space="preserve">
+    <value>Invalid value</value>
+  </data>
+  <data name="drpContactTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GenEnterValueFrom" xml:space="preserve">
+    <value>Please enter value in ${genEntVal} From</value>
+  </data>
+  <data name="GenEnterValueTo" xml:space="preserve">
+    <value>Please enter value in ${genEntVal} To</value>
+  </data>
+  <data name="GenIsInvalid" xml:space="preserve">
+    <value>${genInvalid} is invalid</value>
+  </data>
+  <data name="GenNoRecordFound" xml:space="preserve">
+    <value>No hits in local warehouse</value>
+  </data>
+  <data name="GenNoUpdate" xml:space="preserve">
+    <value>No Calculation done</value>
+  </data>
+  <data name="GenSavedSucessGlobal" xml:space="preserve">
+    <value>Global Spare Part Updated Sucessfully</value>
+  </data>
+  <data name="GenSelectSupplier" xml:space="preserve">
+    <value>Please Select Supplier </value>
+  </data>
+  <data name="GenSelectWarehouse" xml:space="preserve">
+    <value>Please Select Warehouse</value>
+  </data>
+  <data name="GenSpInvalid" xml:space="preserve">
+    <value>Invalid SparePart item entered in the From and To Field</value>
+  </data>
+  <data name="GenSpInvFro" xml:space="preserve">
+    <value>Invalid SparePart item entered in the From Field</value>
+  </data>
+  <data name="GenSpInvTo" xml:space="preserve">
+    <value>Invalid SparePart item entered in the ToField</value>
+  </data>
+  <data name="GenSpNoExFro" xml:space="preserve">
+    <value>Sparepart item in the From field doesnot exists within the selected range</value>
+  </data>
+  <data name="GenSpNoExTo" xml:space="preserve">
+    <value>Sparepart item in the To field doesnot exists within the selected range</value>
+  </data>
+  <data name="GenSpNotExist" xml:space="preserve">
+    <value>Sparepart item in the From and To field doesnot exists within the selected range</value>
+  </data>
+  <data name="GenValueGreaterThan100" xml:space="preserve">
+    <value>Value cannot be greater than 100 in  ${genValueGreater}</value>
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>Søk etter leverandør (Tlf, navn, sted, etc.)</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdvBranchCodeResource1.Text" xml:space="preserve">
+    <value>Kode</value>
+  </data>
+  <data name="lblAdvBranchCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdvBranchNoteResource1.Text" xml:space="preserve">
+    <value>Merk</value>
+  </data>
+  <data name="lblAdvBranchNoteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdvBranchRefResource1.Text" xml:space="preserve">
+    <value>Referanse</value>
+  </data>
+  <data name="lblAdvBranchRefResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdvBranchTextResource1.Text" xml:space="preserve">
+    <value>Tekst</value>
+  </data>
+  <data name="lblAdvBranchTextResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdvCategoryCodeResource1.Text" xml:space="preserve">
+    <value>Kode</value>
+  </data>
+  <data name="lblAdvCategoryCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdvCategoryNoteResource1.Text" xml:space="preserve">
+    <value>Merk</value>
+  </data>
+  <data name="lblAdvCategoryNoteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdvCategoryRefResource1.Text" xml:space="preserve">
+    <value>Referanse</value>
+  </data>
+  <data name="lblAdvCategoryRefResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdvCategoryTextResource1.Text" xml:space="preserve">
+    <value>Tekst</value>
+  </data>
+  <data name="lblAdvCategoryTextResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdvCredCardTypeCodeResource1.Text" xml:space="preserve">
+    <value>Kode</value>
+  </data>
+  <data name="lblAdvCredCardTypeCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdvCredCardTypeCustNoResource1.Text" xml:space="preserve">
+    <value>Kundenr</value>
+  </data>
+  <data name="lblAdvCredCardTypeCustNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdvCredCardTypeTextResource1.Text" xml:space="preserve">
+    <value>Tekst</value>
+  </data>
+  <data name="lblAdvCredCardTypeTextResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdvCurCodeCodeResource1.Text" xml:space="preserve">
+    <value>Kode</value>
+  </data>
+  <data name="lblAdvCurCodeCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdvCurCodeTextResource1.Text" xml:space="preserve">
+    <value>Tekst</value>
+  </data>
+  <data name="lblAdvCurCodeTextResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdvCurCodeValueResource1.Text" xml:space="preserve">
+    <value>Nkr.</value>
+  </data>
+  <data name="lblAdvCurCodeValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdvCurrencyDescResource1.Text" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="lblAdvCurrencyDescResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdvPayTermsCodeResource1.Text" xml:space="preserve">
+    <value>Kode</value>
+  </data>
+  <data name="lblAdvPayTermsCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdvPayTermsDaysResource1.Text" xml:space="preserve">
+    <value>Dager</value>
+  </data>
+  <data name="lblAdvPayTermsDaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdvPayTermsTextResource1.Text" xml:space="preserve">
+    <value>Tekst</value>
+  </data>
+  <data name="lblAdvPayTermsTextResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdvSalesGroupCodeResource1.Text" xml:space="preserve">
+    <value>Kode</value>
+  </data>
+  <data name="lblAdvSalesGroupCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdvSalesGroupInvResource1.Text" xml:space="preserve">
+    <value>Inv.</value>
+  </data>
+  <data name="lblAdvSalesGroupInvResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdvSalesGroupTextResource1.Text" xml:space="preserve">
+    <value>Tekst</value>
+  </data>
+  <data name="lblAdvSalesGroupTextResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdvSalesGroupVatResource1.Text" xml:space="preserve">
+    <value>Fri/Pl./Utl.</value>
+  </data>
+  <data name="lblAdvSalesGroupVatResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdvSalesmanCodeResource1.Text" xml:space="preserve">
+    <value>Kode</value>
+  </data>
+  <data name="lblAdvSalesmanCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdvSalesmanDeptResource1.Text" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="lblAdvSalesmanDeptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdvSalesmanFnameResource1.Text" xml:space="preserve">
+    <value>First name</value>
+  </data>
+  <data name="lblAdvSalesmanFnameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdvSalesmanLnameResource1.Text" xml:space="preserve">
+    <value>Last name</value>
+  </data>
+  <data name="lblAdvSalesmanLnameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdvSalesmanPasswordResource1.Text" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="lblAdvSalesmanPasswordResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdvSalesmanPhoneResource1.Text" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="lblAdvSalesmanPhoneResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdvVendorNoResource1.Text" xml:space="preserve">
+    <value>28/12/2016</value>
+  </data>
+  <data name="lblAdvVendorNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBasicPriceResource1.Text" xml:space="preserve">
+    <value>% Surcharge Basic Price</value>
+  </data>
+  <data name="lblBasicPriceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBillAddResource1.Text" xml:space="preserve">
+    <value>Postal address</value>
+  </data>
+  <data name="lblBillAddResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBillCityResource1.Text" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="lblBillCityResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBillCountryResource1.Text" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="lblBillCountryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBillCountyResource1.Text" xml:space="preserve">
+    <value>County(fyl)</value>
+  </data>
+  <data name="lblBillCountyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBillZipResource1.Text" xml:space="preserve">
+    <value>Zipcode</value>
+  </data>
+  <data name="lblBillZipResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCategoryResource1.Text" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="lblCategoryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblClassCodeResource1.Text" xml:space="preserve">
+    <value>Class Code</value>
+  </data>
+  <data name="lblClassCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCompanyPersonFindResource1.Text" xml:space="preserve">
+    <value>Electronic accessories Catalogue:</value>
+  </data>
+  <data name="lblCompanyPersonFindResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCostPriceResource1.Text" xml:space="preserve">
+    <value>% Surcharge Cost Price</value>
+  </data>
+  <data name="lblCostPriceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDiscountCodeResource1.Text" xml:space="preserve">
+    <value>Discount Code (Buying)</value>
+  </data>
+  <data name="lblDiscountCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFromResource1.Text" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="lblFromResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLocationResource1.Text" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="lblLocationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMakeResource1.Text" xml:space="preserve">
+    <value>Make</value>
+  </data>
+  <data name="lblMakeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNetPriceResource1.Text" xml:space="preserve">
+    <value>% Surcharge Net Price</value>
+  </data>
+  <data name="lblNetPriceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPartNoResource1.Text" xml:space="preserve">
+    <value>Part No.</value>
+  </data>
+  <data name="lblPartNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPermAddResource1.Text" xml:space="preserve">
+    <value>Visit address</value>
+  </data>
+  <data name="lblPermAddResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPermCityResource1.Text" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="lblPermCityResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPermCountryResource1.Text" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="lblPermCountryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPermCountyResource1.Text" xml:space="preserve">
+    <value>County(fyl)</value>
+  </data>
+  <data name="lblPermCountyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPermZipResource1.Text" xml:space="preserve">
+    <value>Zipcode</value>
+  </data>
+  <data name="lblPermZipResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSellPriceResource1.Text" xml:space="preserve">
+    <value>% Surcharge Selling Price</value>
+  </data>
+  <data name="lblSellPriceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSuppliernameResource1.Text" xml:space="preserve">
+    <value>Supplier name</value>
+  </data>
+  <data name="lblSuppliernameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblToResource1.Text" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="lblToResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWarehouseResource1.Text" xml:space="preserve">
+    <value>Warehouse</value>
+  </data>
+  <data name="lblWarehouseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWashBillAddressResource1.Text" xml:space="preserve">
+    <value>Bill address</value>
+  </data>
+  <data name="lblWashBillAddressResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWashBornResource1.Text" xml:space="preserve">
+    <value>Born</value>
+  </data>
+  <data name="lblWashBornResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWashFirstNameResource1.Text" xml:space="preserve">
+    <value>First name</value>
+  </data>
+  <data name="lblWashFirstNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWashLastNameResource1.Text" xml:space="preserve">
+    <value>Last name/ Subsidiary</value>
+  </data>
+  <data name="lblWashLastNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWashMiddleNameResource1.Text" xml:space="preserve">
+    <value>Middle name</value>
+  </data>
+  <data name="lblWashMiddleNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWashMobileResource1.Text" xml:space="preserve">
+    <value>Mobil</value>
+  </data>
+  <data name="lblWashMobileResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWashPhoneResource1.Text" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="lblWashPhoneResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWashSsnNoResource1.Text" xml:space="preserve">
+    <value>SSN No</value>
+  </data>
+  <data name="lblWashSsnNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWashVisitAdressResource1.Text" xml:space="preserve">
+    <value>Visit address</value>
+  </data>
+  <data name="lblWashVisitAdressResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWashZipCodeResource1.Text" xml:space="preserve">
+    <value>Postnr</value>
+  </data>
+  <data name="lblWashZipCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWashZipPlaceResource1.Text" xml:space="preserve">
+    <value>Sted</value>
+  </data>
+  <data name="lblWashZipPlaceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lHeadResource1.Text" xml:space="preserve">
+    <value>Leverandørsøk</value>
+  </data>
+  <data name="lHeadResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="liAdvProductCodeDescResource1.Text" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="liAdvSupplierIdDescResource1.Text" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="liNotesResource1.Text" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="liPasswordResource1.Text" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="PageResource2.Title" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PanelContentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PanelContentResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PanelContentResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PanelContentResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PanelContentResource5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PanelContentResource6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PanelContentResource7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbCalculateGlobalResource1.CaptionSettings.OptionalMark" xml:space="preserve">
+    <value>(optional)</value>
+  </data>
+  <data name="rbCalculateGlobalResource1.CaptionSettings.RequiredMark" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="rbCalculateGlobalResource1.CheckedImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbCalculateGlobalResource1.CheckedImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbCalculateGlobalResource1.CheckedImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbCalculateGlobalResource1.GrayedImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbCalculateGlobalResource1.GrayedImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbCalculateGlobalResource1.GrayedImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbCalculateGlobalResource1.Text" xml:space="preserve">
+    <value>Calculate Global</value>
+  </data>
+  <data name="rbCalculateGlobalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbCalculateGlobalResource1.UncheckedImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbCalculateGlobalResource1.UncheckedImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbCalculateGlobalResource1.UncheckedImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbCalculateGlobalResource1.ValidationSettings.ErrorText" xml:space="preserve">
+    <value>Invalid value</value>
+  </data>
+  <data name="rbCalculateLocalResource1.CaptionSettings.OptionalMark" xml:space="preserve">
+    <value>(optional)</value>
+  </data>
+  <data name="rbCalculateLocalResource1.CaptionSettings.RequiredMark" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="rbCalculateLocalResource1.CheckedImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbCalculateLocalResource1.CheckedImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbCalculateLocalResource1.CheckedImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbCalculateLocalResource1.GrayedImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbCalculateLocalResource1.GrayedImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbCalculateLocalResource1.GrayedImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbCalculateLocalResource1.Text" xml:space="preserve">
+    <value>Calculate local</value>
+  </data>
+  <data name="rbCalculateLocalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbCalculateLocalResource1.UncheckedImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbCalculateLocalResource1.UncheckedImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbCalculateLocalResource1.UncheckedImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbCalculateLocalResource1.ValidationSettings.ErrorText" xml:space="preserve">
+    <value>Invalid value</value>
+  </data>
+  <data name="rbPriceAdjustmentResource1.CaptionSettings.OptionalMark" xml:space="preserve">
+    <value>(optional)</value>
+  </data>
+  <data name="rbPriceAdjustmentResource1.CaptionSettings.RequiredMark" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="rbPriceAdjustmentResource1.CheckedImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbPriceAdjustmentResource1.CheckedImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbPriceAdjustmentResource1.CheckedImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbPriceAdjustmentResource1.GrayedImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbPriceAdjustmentResource1.GrayedImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbPriceAdjustmentResource1.GrayedImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbPriceAdjustmentResource1.Text" xml:space="preserve">
+    <value>Price adjustment</value>
+  </data>
+  <data name="rbPriceAdjustmentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbPriceAdjustmentResource1.UncheckedImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbPriceAdjustmentResource1.UncheckedImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbPriceAdjustmentResource1.UncheckedImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbPriceAdjustmentResource1.ValidationSettings.ErrorText" xml:space="preserve">
+    <value>Invalid value</value>
+  </data>
+  <data name="rbRoundingResource1.CaptionSettings.OptionalMark" xml:space="preserve">
+    <value>(optional)</value>
+  </data>
+  <data name="rbRoundingResource1.CaptionSettings.RequiredMark" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="rbRoundingResource1.CheckedImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbRoundingResource1.CheckedImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbRoundingResource1.CheckedImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbRoundingResource1.GrayedImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbRoundingResource1.GrayedImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbRoundingResource1.GrayedImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbRoundingResource1.Text" xml:space="preserve">
+    <value>Rounding</value>
+  </data>
+  <data name="rbRoundingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbRoundingResource1.UncheckedImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbRoundingResource1.UncheckedImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbRoundingResource1.UncheckedImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbRoundingResource1.ValidationSettings.ErrorText" xml:space="preserve">
+    <value>Invalid value</value>
+  </data>
+  <data name="rbRoundingToClosest50Resource1.CaptionSettings.OptionalMark" xml:space="preserve">
+    <value>(optional)</value>
+  </data>
+  <data name="rbRoundingToClosest50Resource1.CaptionSettings.RequiredMark" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="rbRoundingToClosest50Resource1.CheckedImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbRoundingToClosest50Resource1.CheckedImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbRoundingToClosest50Resource1.CheckedImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbRoundingToClosest50Resource1.GrayedImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbRoundingToClosest50Resource1.GrayedImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbRoundingToClosest50Resource1.GrayedImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbRoundingToClosest50Resource1.Text" xml:space="preserve">
+    <value>Round to closest 0,50</value>
+  </data>
+  <data name="rbRoundingToClosest50Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbRoundingToClosest50Resource1.UncheckedImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbRoundingToClosest50Resource1.UncheckedImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbRoundingToClosest50Resource1.UncheckedImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbRoundingToClosest50Resource1.ValidationSettings.ErrorText" xml:space="preserve">
+    <value>Invalid value</value>
+  </data>
+  <data name="rbRoundToClosestIntResource1.CaptionSettings.OptionalMark" xml:space="preserve">
+    <value>(optional)</value>
+  </data>
+  <data name="rbRoundToClosestIntResource1.CaptionSettings.RequiredMark" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="rbRoundToClosestIntResource1.CheckedImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbRoundToClosestIntResource1.CheckedImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbRoundToClosestIntResource1.CheckedImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbRoundToClosestIntResource1.GrayedImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbRoundToClosestIntResource1.GrayedImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbRoundToClosestIntResource1.GrayedImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbRoundToClosestIntResource1.Text" xml:space="preserve">
+    <value>Round to closest integer</value>
+  </data>
+  <data name="rbRoundToClosestIntResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbRoundToClosestIntResource1.UncheckedImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbRoundToClosestIntResource1.UncheckedImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbRoundToClosestIntResource1.UncheckedImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbRoundToClosestIntResource1.ValidationSettings.ErrorText" xml:space="preserve">
+    <value>Invalid value</value>
+  </data>
+  <data name="SupplierLock1Resource1.Text" xml:space="preserve">
+    <value>Leverandørnummer er låst for manuell inntasting. Dette nummeret blir automatisk tildelt ved lagring av leverandør.</value>
+  </data>
+  <data name="SupplierLock1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SupplierLock2Resource1.Text" xml:space="preserve">
+    <value>Ønsker du å søke opp leverandør, trykk avbryt og bruk søkefeltet til høyre.</value>
+  </data>
+  <data name="SupplierLock3Resource1.Text" xml:space="preserve">
+    <value>For å tildele manuelt leverandørnummer, velg "lås opp" for å låse opp feltet for inntasting.</value>
+  </data>
+  <data name="SupplierLockCancelResource1.Text" xml:space="preserve">
+    <value>Avbryt</value>
+  </data>
+  <data name="SupplierLockHeadResource1.Text" xml:space="preserve">
+    <value>Advarsel!</value>
+  </data>
+  <data name="SupplierLockOKResource1.Text" xml:space="preserve">
+    <value>Lås opp</value>
+  </data>
+  <data name="txtAdvBranchCodeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvBranchCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvBranchNoteResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvBranchNoteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvBranchRefResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvBranchRefResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvBranchTextResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvBranchTextResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvCategoryCodeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvCategoryCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvCategoryNoteResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvCategoryNoteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvCategoryRefResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvCategoryRefResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvCategoryTextResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvCategoryTextResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvCredCardTypeCodeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvCredCardTypeCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvCredCardTypeCustNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvCredCardTypeCustNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvCredCardTypeTextResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvCredCardTypeTextResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvCurCodeCodeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvCurCodeCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvCurCodeTextResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvCurCodeTextResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvCurCodeValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvCurCodeValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvCurrencyIdResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvCurrencyIdResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvDeliveryTimeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvDeliveryTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvNSCCodeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvNSCCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvPayTermsCodeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvPayTermsCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvPayTermsDaysResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvPayTermsDaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvPayTermsTextResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvPayTermsTextResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvProductCodeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvProductCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvSalesGroupCodeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvSalesGroupCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvSalesGroupInvResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvSalesGroupInvResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvSalesGroupTextResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvSalesGroupTextResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvSalesGroupVatResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvSalesGroupVatResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvSalesmanDeptResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvSalesmanDeptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvSalesmanFnameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvSalesmanFnameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvSalesmanLnameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvSalesmanLnameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvSalesmanLoginResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvSalesmanLoginResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvSalesmanPasswordResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvSalesmanPasswordResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvSalesmanPhoneResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvSalesmanPhoneResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvShippingPercentResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvShippingPercentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvSparePrefixResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvSparePrefixResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvSupplierIdResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdvSupplierIdResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBasicPriceResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBasicPriceResource1.CaptionSettings.OptionalMark" xml:space="preserve">
+    <value>(optional)</value>
+  </data>
+  <data name="txtBasicPriceResource1.CaptionSettings.RequiredMark" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="txtBasicPriceResource1.DisplayFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBasicPriceResource1.HelpText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBasicPriceResource1.MaskSettings.ErrorText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBasicPriceResource1.MaskSettings.Mask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBasicPriceResource1.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBasicPriceResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBasicPriceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBasicPriceResource1.ValidationSettings.ErrorText" xml:space="preserve">
+    <value>Invalid value</value>
+  </data>
+  <data name="txtBillAdd1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBillAdd1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBillAdd2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBillAdd2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBillCityResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBillCityResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBillCountryResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBillCountryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBillCountyResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBillCountyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBillZipResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBillZipResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCompanyPerson2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCompanyPerson2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCostPriceResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCostPriceResource1.CaptionSettings.OptionalMark" xml:space="preserve">
+    <value>(optional)</value>
+  </data>
+  <data name="txtCostPriceResource1.CaptionSettings.RequiredMark" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="txtCostPriceResource1.DisplayFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCostPriceResource1.HelpText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCostPriceResource1.MaskSettings.ErrorText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCostPriceResource1.MaskSettings.Mask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCostPriceResource1.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCostPriceResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCostPriceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCostPriceResource1.ValidationSettings.ErrorText" xml:space="preserve">
+    <value>Invalid value</value>
+  </data>
+  <data name="txtCustTempPasswordResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCustTempPasswordResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEcoRegCostResource1.Text" xml:space="preserve">
+    <value>Http://www.</value>
+  </data>
+  <data name="txtEcoRegCostResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEcoSalesEquipmentResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEcoSalesEquipmentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEcoSalespriceNetResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEcoSalespriceNetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEcoSalesSaleResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEcoSalesSaleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEniroResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEniroResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFirstnameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFirstnameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNetPriceResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNetPriceResource1.CaptionSettings.OptionalMark" xml:space="preserve">
+    <value>(optional)</value>
+  </data>
+  <data name="txtNetPriceResource1.CaptionSettings.RequiredMark" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="txtNetPriceResource1.DisplayFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNetPriceResource1.HelpText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNetPriceResource1.MaskSettings.ErrorText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNetPriceResource1.MaskSettings.Mask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNetPriceResource1.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNetPriceResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNetPriceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNetPriceResource1.ValidationSettings.ErrorText" xml:space="preserve">
+    <value>Invalid value</value>
+  </data>
+  <data name="txtNotesResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNotesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPartNoFromResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPartNoFromResource1.CaptionSettings.OptionalMark" xml:space="preserve">
+    <value>(optional)</value>
+  </data>
+  <data name="txtPartNoFromResource1.CaptionSettings.RequiredMark" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="txtPartNoFromResource1.DisplayFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPartNoFromResource1.HelpText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPartNoFromResource1.MaskSettings.ErrorText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPartNoFromResource1.MaskSettings.Mask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPartNoFromResource1.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPartNoFromResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPartNoFromResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPartNoFromResource1.ValidationSettings.ErrorText" xml:space="preserve">
+    <value>Invalid value</value>
+  </data>
+  <data name="txtPartNoToResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPartNoToResource1.CaptionSettings.OptionalMark" xml:space="preserve">
+    <value>(optional)</value>
+  </data>
+  <data name="txtPartNoToResource1.CaptionSettings.RequiredMark" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="txtPartNoToResource1.DisplayFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPartNoToResource1.HelpText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPartNoToResource1.MaskSettings.ErrorText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPartNoToResource1.MaskSettings.Mask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPartNoToResource1.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPartNoToResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPartNoToResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPartNoToResource1.ValidationSettings.ErrorText" xml:space="preserve">
+    <value>Invalid value</value>
+  </data>
+  <data name="txtPerBasicPriceResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPerBasicPriceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPermAdd1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPermAdd1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPermAdd2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPermAdd2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPermCityResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPermCityResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPermCountryResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPermCountryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPermCountyResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPermCountyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPermZipResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPermZipResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSellPriceResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSellPriceResource1.CaptionSettings.OptionalMark" xml:space="preserve">
+    <value>(optional)</value>
+  </data>
+  <data name="txtSellPriceResource1.CaptionSettings.RequiredMark" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="txtSellPriceResource1.DisplayFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSellPriceResource1.HelpText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSellPriceResource1.MaskSettings.ErrorText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSellPriceResource1.MaskSettings.Mask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSellPriceResource1.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSellPriceResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSellPriceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSellPriceResource1.ValidationSettings.ErrorText" xml:space="preserve">
+    <value>Invalid value</value>
+  </data>
+  <data name="txtTechControlFormResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTechControlFormResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTechEffectResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTechEffectResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTechLengthResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTechLengthResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTechPistonDispResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTechPistonDispResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTechRoundperMinResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTechRoundperMinResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTechWarehouseNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTechWarehouseNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTechWarehouseResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTechWarehouseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTechWidthResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTechWidthResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWashEniroBillAddressResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWashEniroBillAddressResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWashEniroBornResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWashEniroBornResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWashEniroFirstNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWashEniroFirstNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWashEniroLastNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWashEniroLastNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWashEniroMiddleNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWashEniroMiddleNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWashEniroMobileResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWashEniroMobileResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWashEniroPhoneResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWashEniroPhoneResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWashEniroSsnNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWashEniroSsnNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWashEniroVisitAddressResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWashEniroVisitAddressResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWashEniroZipCodeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWashEniroZipCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWashEniroZipPlaceResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWashEniroZipPlaceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWashLocalBillAddressResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWashLocalBillAddressResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWashLocalBornResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWashLocalBornResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWashLocalFirstNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWashLocalFirstNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWashLocalLastNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWashLocalLastNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWashLocalMiddleNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWashLocalMiddleNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWashLocalMobileResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWashLocalMobileResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWashLocalPhoneResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWashLocalPhoneResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWashLocalSsnNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWashLocalSsnNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWashLocalVisitAddressResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWashLocalVisitAddressResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWashLocalZipCodeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWashLocalZipCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWashLocalZipPlaceResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWashLocalZipPlaceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GenSavedSucessLocal" xml:space="preserve">
+    <value>Local Spare Part Updated Sucessfully</value>
+  </data>
+  <data name="CRUPDGLBLSPARES" xml:space="preserve">
+    <value>No creating/updating of global spare part register</value>
+  </data>
+  <data name="FILEUPLOADED" xml:space="preserve">
+    <value>File uploaded</value>
+  </data>
+  <data name="INVBASICPRICE" xml:space="preserve">
+    <value>Invalid Basic Price</value>
+  </data>
+  <data name="INVCONFIGIMPORT" xml:space="preserve">
+    <value>Supplier Import configuration is not set for Fields</value>
+  </data>
+  <data name="INVCOSTPRICE" xml:space="preserve">
+    <value>Invalid Cost Price</value>
+  </data>
+  <data name="INVCURRENCY" xml:space="preserve">
+    <value>Invalid Currency</value>
+  </data>
+  <data name="INVDISCCODE" xml:space="preserve">
+    <value>Invalid Discount Code</value>
+  </data>
+  <data name="INVIDITEM" xml:space="preserve">
+    <value>Invalid Id Item</value>
+  </data>
+  <data name="INVNETPRICE" xml:space="preserve">
+    <value>Invalid Net Price</value>
+  </data>
+  <data name="INVPKGQTY" xml:space="preserve">
+    <value>Invalid Package Quantity</value>
+  </data>
+  <data name="INVSELLPRICE" xml:space="preserve">
+    <value>Invalid Selling Price</value>
+  </data>
+  <data name="INVSPCATG" xml:space="preserve">
+    <value>Select Sparepart Category</value>
+  </data>
+  <data name="INVUNITITEM" xml:space="preserve">
+    <value>Invalid Unit Item</value>
+  </data>
+  <data name="READFILESUCCESS" xml:space="preserve">
+    <value>Reading of file Sucessful</value>
+  </data>
+  <data name="SPARESIMPORTFAILED" xml:space="preserve">
+    <value>One or more spareparts could not be imported to database!</value>
+  </data>
+  <data name="SPARESIMPORTSUCCESS" xml:space="preserve">
+    <value>Spare Parts Sucessfully Imported</value>
+  </data>
+  <data name="UPPFIMP" xml:space="preserve">
+    <value>Upload the price file before importing</value>
+  </data>
+  <data name="chkConvertSprPrtResource1.Text" xml:space="preserve">
+    <value>Convert Spare Part</value>
+  </data>
+  <data name="chkUpdateLocalSprPrtResource1.Text" xml:space="preserve">
+    <value>Update Local Spare Parts</value>
+  </data>
+  <data name="chkUpdateReplacementNoResource1.Text" xml:space="preserve">
+    <value>Update replacement numbers</value>
+  </data>
+  <data name="chkUpdateSprJobPackageResource1.Text" xml:space="preserve">
+    <value>Update spares on job packages</value>
+  </data>
+  <data name="chkUpdateTechDocNoResource1.Text" xml:space="preserve">
+    <value>Update TechDoc number</value>
+  </data>
+  <data name="INVALIDFILE" xml:space="preserve">
+    <value>Invalid File</value>
+  </data>
+  <data name="lblPerBasicPriceResource1.Text" xml:space="preserve">
+    <value>Surcharge% for basic price</value>
+  </data>
+  <data name="lblPerCostPriceResource1.Text" xml:space="preserve">
+    <value>Surcharge% for cost price</value>
+  </data>
+  <data name="lblPerNetPriceResource1.Text" xml:space="preserve">
+    <value>Surcharge% for net price</value>
+  </data>
+  <data name="lblPerSalesPriceResource1.Text" xml:space="preserve">
+    <value>Surcharge% for sell price</value>
+  </data>
+  <data name="lblSparePartGroupResource1.Text" xml:space="preserve">
+    <value>Spare part group</value>
+  </data>
+  <data name="rbCreateGlobalSprPrtResource1.Text" xml:space="preserve">
+    <value>No creating/updating of global spare part register</value>
+  </data>
+  <data name="rbDeleteGlobalSprPrtResource1.Text" xml:space="preserve">
+    <value>Delete global spare parts and add new ones</value>
+  </data>
+  <data name="rbUpdateGlobalSprPrtResource1.Text" xml:space="preserve">
+    <value>Update the global spare part register</value>
+  </data>
+  <data name="spnDragFile" xml:space="preserve">
+    <value>Drag a file here</value>
+  </data>
+  <data name="spnDropFile" xml:space="preserve">
+    <value>Drop a file here</value>
+  </data>
+  <data name="UploadControlResource1.BrowseButton.Text" xml:space="preserve">
+    <value>Select a file for upload</value>
+  </data>
+</root>

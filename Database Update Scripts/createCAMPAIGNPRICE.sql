@@ -1,0 +1,22 @@
+USE [CARSDEV]
+GO
+
+/****** Object:  Table [dbo].[TBL_SPR_ITEM_CAMPAIGNPRICE]    Script Date: 26.05.2020 08:25:48 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[TBL_SPR_ITEM_CAMPAIGNPRICE](
+	[CAMPAIGN_PRICE] [decimal](18, 0) NULL,
+	[START_DATE] [int] NULL,
+	[END_DATE] [int] NULL,
+	[CREATED_BY] [nchar](100) NULL,
+	[DT_CREATED] [datetime] NULL,
+	[ID_ITEM] [nchar](100) NULL,
+	[SUPP_CURRENTNO] [nchar](100) NULL
+) ON [PRIMARY]
+GO
+
+

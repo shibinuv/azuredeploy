@@ -1,0 +1,807 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="errRecExists" xml:space="preserve">
+    <value> already used. Cannot delete</value>
+  </data>
+  <data name="GridViewCommandColumnResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewCommandColumnResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource1.EditFormSettings.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource1.PropertiesTextEdit.DisplayFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource1.PropertiesTextEdit.HelpText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource1.PropertiesTextEdit.NullDisplayText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource1.PropertiesTextEdit.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource2.Caption" xml:space="preserve">
+    <value>Leave Code</value>
+  </data>
+  <data name="GridViewDataTextColumnResource2.EditFormSettings.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource2.PropertiesTextEdit.DisplayFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource2.PropertiesTextEdit.HelpText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource2.PropertiesTextEdit.MaskSettings.ErrorText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource2.PropertiesTextEdit.MaskSettings.Mask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource2.PropertiesTextEdit.NullDisplayText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource2.PropertiesTextEdit.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource2.PropertiesTextEdit.ValidationSettings.ErrorImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource2.PropertiesTextEdit.ValidationSettings.ErrorImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource2.PropertiesTextEdit.ValidationSettings.ErrorImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource2.PropertiesTextEdit.ValidationSettings.ErrorImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource2.PropertiesTextEdit.ValidationSettings.ErrorText" xml:space="preserve">
+    <value>Invalid value</value>
+  </data>
+  <data name="GridViewDataTextColumnResource2.PropertiesTextEdit.ValidationSettings.RegularExpression.ErrorText" xml:space="preserve">
+    <value>Special Characters and Numerics not allowed</value>
+  </data>
+  <data name="GridViewDataTextColumnResource2.PropertiesTextEdit.ValidationSettings.RequiredField.ErrorText" xml:space="preserve">
+    <value>Please enter a Leave Code</value>
+  </data>
+  <data name="GridViewDataTextColumnResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource3.Caption" xml:space="preserve">
+    <value>Leave Description</value>
+  </data>
+  <data name="GridViewDataTextColumnResource3.EditFormSettings.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource3.PropertiesTextEdit.DisplayFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource3.PropertiesTextEdit.HelpText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource3.PropertiesTextEdit.MaskSettings.ErrorText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource3.PropertiesTextEdit.MaskSettings.Mask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource3.PropertiesTextEdit.NullDisplayText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource3.PropertiesTextEdit.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource3.PropertiesTextEdit.ValidationSettings.ErrorImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource3.PropertiesTextEdit.ValidationSettings.ErrorImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource3.PropertiesTextEdit.ValidationSettings.ErrorImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource3.PropertiesTextEdit.ValidationSettings.ErrorImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource3.PropertiesTextEdit.ValidationSettings.ErrorText" xml:space="preserve">
+    <value>Invalid value</value>
+  </data>
+  <data name="GridViewDataTextColumnResource3.PropertiesTextEdit.ValidationSettings.RegularExpression.ErrorText" xml:space="preserve">
+    <value>Special Characters and Numerics not allowed</value>
+  </data>
+  <data name="GridViewDataTextColumnResource3.PropertiesTextEdit.ValidationSettings.RequiredField.ErrorText" xml:space="preserve">
+    <value>Please enter a Leave Description</value>
+  </data>
+  <data name="GridViewDataTextColumnResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource4.Caption" xml:space="preserve">
+    <value>Approve Code</value>
+  </data>
+  <data name="GridViewDataTextColumnResource4.EditFormSettings.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource4.PropertiesTextEdit.DisplayFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource4.PropertiesTextEdit.HelpText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource4.PropertiesTextEdit.MaskSettings.ErrorText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource4.PropertiesTextEdit.MaskSettings.Mask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource4.PropertiesTextEdit.NullDisplayText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource4.PropertiesTextEdit.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource4.PropertiesTextEdit.ValidationSettings.ErrorImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource4.PropertiesTextEdit.ValidationSettings.ErrorImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource4.PropertiesTextEdit.ValidationSettings.ErrorImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource4.PropertiesTextEdit.ValidationSettings.ErrorImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource4.PropertiesTextEdit.ValidationSettings.ErrorText" xml:space="preserve">
+    <value>Invalid value</value>
+  </data>
+  <data name="GridViewDataTextColumnResource4.PropertiesTextEdit.ValidationSettings.RegularExpression.ErrorText" xml:space="preserve">
+    <value>Special Characters and Numerics not allowed</value>
+  </data>
+  <data name="GridViewDataTextColumnResource4.PropertiesTextEdit.ValidationSettings.RequiredField.ErrorText" xml:space="preserve">
+    <value>Please enter a Approve Code</value>
+  </data>
+  <data name="GridViewDataTextColumnResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.EditFormLayoutProperties.OptionalMark" xml:space="preserve">
+    <value>(optional)</value>
+  </data>
+  <data name="gvLeaveTypesResource1.EditFormLayoutProperties.RequiredMark" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="gvLeaveTypesResource1.Settings.GroupFormat" xml:space="preserve">
+    <value>{0}: {1} {2}</value>
+  </data>
+  <data name="gvLeaveTypesResource1.Settings.GroupFormatForMergedGroup" xml:space="preserve">
+    <value>{0}: {1}</value>
+  </data>
+  <data name="gvLeaveTypesResource1.Settings.GroupFormatForMergedGroupRow" xml:space="preserve">
+    <value>{0} {1}</value>
+  </data>
+  <data name="gvLeaveTypesResource1.Settings.GroupSummaryTextSeparator" xml:space="preserve">
+    <value>, </value>
+  </data>
+  <data name="gvLeaveTypesResource1.Settings.MergedGroupSeparator" xml:space="preserve">
+    <value>; </value>
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsFilterControl.TextTabText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsFilterControl.VisualTabText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsLoadingPanel.Text" xml:space="preserve">
+    <value>Loading&amp;hellip;</value>
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsPager.AllButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsPager.AllButton.TextFormatString" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsPager.CurrentPageNumberFormat" xml:space="preserve">
+    <value>[{0}]</value>
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsPager.FirstPageButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsPager.FirstPageButton.TextFormatString" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsPager.LastPageButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsPager.LastPageButton.TextFormatString" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsPager.NextPageButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsPager.NextPageButton.TextFormatString" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsPager.PageNumberFormat" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsPager.PageSizeItemSettings.AllItemText" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsPager.PageSizeItemSettings.Caption" xml:space="preserve">
+    <value>Page size:</value>
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsPager.PageSizeItemSettings.DropDownImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsPager.PageSizeItemSettings.DropDownImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsPager.PageSizeItemSettings.DropDownImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsPager.PageSizeItemSettings.DropDownImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsPager.PageSizeItemSettings.Image.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsPager.PageSizeItemSettings.Image.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsPager.PageSizeItemSettings.Image.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsPager.PageSizeItemSettings.Image.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsPager.PrevPageButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsPager.PrevPageButton.TextFormatString" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsPager.Summary.AllPagesText" xml:space="preserve">
+    <value>Pages: {0} - {1} ({2} items)</value>
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsPager.Summary.EmptyText" xml:space="preserve">
+    <value>No data to paginate</value>
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsPager.Summary.Text" xml:space="preserve">
+    <value>Page {0} of {1} ({2} items)</value>
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.BatchEditChangesPreviewDeletedValues" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.BatchEditChangesPreviewInsertedValues" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.BatchEditChangesPreviewUpdatedValues" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.CommandApplyFilter" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.CommandApplySearchPanelFilter" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.CommandBatchEditCancel" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.CommandBatchEditHidePreview" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.CommandBatchEditPreviewChanges" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.CommandBatchEditUpdate" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.CommandBatchEditUpdateSummaries" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.CommandCancel" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.CommandClearFilter" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.CommandClearSearchPanelFilter" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.CommandDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.CommandEdit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.CommandHideAdaptiveDetail" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.CommandNew" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.CommandRecover" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.CommandSelect" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.CommandShowAdaptiveDetail" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.CommandUpdate" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ConfirmDelete" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ConfirmOnLosingBatchChanges" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ContextMenuClearFilter" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ContextMenuClearGrouping" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ContextMenuClearSorting" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ContextMenuCollapseDetailRow" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ContextMenuCollapseRow" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ContextMenuDeleteRow" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ContextMenuEditRow" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ContextMenuExpandDetailRow" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ContextMenuExpandRow" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ContextMenuExport" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ContextMenuExportTo" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ContextMenuFullCollapse" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ContextMenuFullExpand" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ContextMenuGroupByColumn" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ContextMenuGroupSummary" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ContextMenuHideColumn" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ContextMenuNewRow" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ContextMenuRefresh" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ContextMenuShowColumn" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ContextMenuShowCustomizationDialog" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ContextMenuShowCustomizationWindow" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ContextMenuShowFilterEditor" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ContextMenuShowFilterRow" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ContextMenuShowFilterRowMenu" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ContextMenuShowFooter" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ContextMenuShowGroupPanel" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ContextMenuShowSearchPanel" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ContextMenuSortAscending" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ContextMenuSortDescending" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ContextMenuSummaryAverage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ContextMenuSummaryCount" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ContextMenuSummaryMax" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ContextMenuSummaryMin" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ContextMenuSummaryNone" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ContextMenuSummarySum" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ContextMenuUngroupColumn" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.CustomizationDialogColumnChooserTab" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.CustomizationDialogFilteringPageUniqueFilterLoadValues" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.CustomizationDialogFilteringTab" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.CustomizationDialogGroupingPageEmptyDragArea" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.CustomizationDialogGroupingPageListArea" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.CustomizationDialogGroupingTab" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.CustomizationDialogSortingPageEmptyDragArea" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.CustomizationDialogSortingPageListArea" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.CustomizationDialogSortingTab" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.CustomizationWindowCaption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.CustomizationWindowFooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.EmptyDataRow" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.EmptyHeaders" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.FilterBarClear" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.FilterBarCreateFilter" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.FilterControlPopupCaption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.GroupContinuedOnNextPage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.GroupPanel" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.HeaderFilterCancelButton" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.HeaderFilterFrom" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.HeaderFilterHeaderCaption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.HeaderFilterLastMonth" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.HeaderFilterLastWeek" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.HeaderFilterLastYear" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.HeaderFilterNextMonth" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.HeaderFilterNextWeek" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.HeaderFilterNextYear" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.HeaderFilterOkButton" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.HeaderFilterSelectAll" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.HeaderFilterShowAll" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.HeaderFilterShowBlanks" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.HeaderFilterShowNonBlanks" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.HeaderFilterThisMonth" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.HeaderFilterThisWeek" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.HeaderFilterThisYear" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.HeaderFilterTo" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.HeaderFilterToday" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.HeaderFilterTomorrow" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.HeaderFilterYesterday" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.PopupEditFormCaption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.PopupEditFormFooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.SearchPanelEditorNullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.SelectAllCheckBoxInAllPagesMode" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.SelectAllCheckBoxInPageMode" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.Title" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ToolbarBatchEditHidePreview" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ToolbarBatchEditPreviewChanges" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ToolbarCancel" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ToolbarClearFilter" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ToolbarClearGrouping" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ToolbarClearSorting" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ToolbarCollapseDetailRow" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ToolbarCollapseRow" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ToolbarDelete" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ToolbarEdit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ToolbarExpandDetailRow" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ToolbarExpandRow" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ToolbarExportTo" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ToolbarFullCollapse" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ToolbarFullExpand" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ToolbarNew" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ToolbarRefresh" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ToolbarShowCustomizationDialog" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ToolbarShowCustomizationWindow" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ToolbarShowFilterEditor" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ToolbarShowFilterRow" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ToolbarShowFilterRowMenu" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ToolbarShowFooter" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ToolbarShowGroupPanel" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ToolbarShowSearchPanel" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ToolbarUpdate" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SettingsText.ToolbarUpdateSummaries" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.SummaryText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvLeaveTypesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hdrMecLvType" xml:space="preserve">
+    <value>Mechanic Leave Types</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value />
+  </data>
+</root>

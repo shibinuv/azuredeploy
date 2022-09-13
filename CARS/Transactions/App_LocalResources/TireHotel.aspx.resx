@@ -1,0 +1,450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnBack" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="btnClose" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="btnCompletePackage" xml:space="preserve">
+    <value>Complete</value>
+  </data>
+  <data name="btnCompletePackageOrder" xml:space="preserve">
+    <value>Complete and move to order</value>
+  </data>
+  <data name="btnOk" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="btnPrint" xml:space="preserve">
+    <value>Print out</value>
+  </data>
+  <data name="btnSave" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="chkCompanyResource1.Text" xml:space="preserve">
+    <value>Company?</value>
+  </data>
+  <data name="chkCompanyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="drpMakeCodesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="drpSearchShowHide" xml:space="preserve">
+    <value>Show/hide</value>
+  </data>
+  <data name="drpSearchTireQualityResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="drpSearchTireTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hdrTransferOrder" xml:space="preserve">
+    <value>Transfer to order</value>
+  </data>
+  <data name="headCompleteTirePackage" xml:space="preserve">
+    <value>Complete tire package</value>
+  </data>
+  <data name="headCustomerDetails" xml:space="preserve">
+    <value>Customer details</value>
+  </data>
+  <data name="headPackageDetails" xml:space="preserve">
+    <value>Package details</value>
+  </data>
+  <data name="headTireDepth" xml:space="preserve">
+    <value>Add tire depth on the selected tires of axles</value>
+  </data>
+  <data name="headTireDepthAxle1" xml:space="preserve">
+    <value>Axle 1</value>
+  </data>
+  <data name="headTireDepthAxle2" xml:space="preserve">
+    <value>Axle 2</value>
+  </data>
+  <data name="headTireDepthAxle3" xml:space="preserve">
+    <value>Axle 3</value>
+  </data>
+  <data name="headTireDepthAxle4" xml:space="preserve">
+    <value>Axle 4</value>
+  </data>
+  <data name="headTireDepthAxle5" xml:space="preserve">
+    <value>Axle 5</value>
+  </data>
+  <data name="headTireDepthAxle6" xml:space="preserve">
+    <value>Axle 6</value>
+  </data>
+  <data name="headTireDepthMaster" xml:space="preserve">
+    <value>Tire depth general</value>
+  </data>
+  <data name="headTireDetails" xml:space="preserve">
+    <value>Tire details</value>
+  </data>
+  <data name="headVehicleDetails" xml:space="preserve">
+    <value>Vehicle details</value>
+  </data>
+  <data name="lbCustID" xml:space="preserve">
+    <value>Customer Id</value>
+  </data>
+  <data name="lblAnnotation" xml:space="preserve">
+    <value>Annotation</value>
+  </data>
+  <data name="lblCustAddress" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="lblCustCompanyname" xml:space="preserve">
+    <value>Company name</value>
+  </data>
+  <data name="lblCustFirstname" xml:space="preserve">
+    <value>First name</value>
+  </data>
+  <data name="lblCustLastname" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="lblCustMail" xml:space="preserve">
+    <value>Mail</value>
+  </data>
+  <data name="lblCustMiddlename" xml:space="preserve">
+    <value>Middle name</value>
+  </data>
+  <data name="lblCustMobile" xml:space="preserve">
+    <value>Mobile number</value>
+  </data>
+  <data name="lblCustZipCode" xml:space="preserve">
+    <value>Zip code</value>
+  </data>
+  <data name="lblCustZipPlace" xml:space="preserve">
+    <value>Zip Place</value>
+  </data>
+  <data name="lblOrderDateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOrderDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPackageBoltsDelivered" xml:space="preserve">
+    <value>Bolts delivered</value>
+  </data>
+  <data name="lblPackageExpectedOutDate" xml:space="preserve">
+    <value>Expected out date</value>
+  </data>
+  <data name="lblPackageFindLocation" xml:space="preserve">
+    <value>Find location</value>
+  </data>
+  <data name="lblPackageLocation" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="lblPackageWheelCover" xml:space="preserve">
+    <value>Wheel covers delivered</value>
+  </data>
+  <data name="lblQtyTires" xml:space="preserve">
+    <value>Qty. of tires</value>
+  </data>
+  <data name="lblSearchComplete" xml:space="preserve">
+    <value>Completed?</value>
+  </data>
+  <data name="lblSearchCustomer" xml:space="preserve">
+    <value>Search for customer</value>
+  </data>
+  <data name="lblSearchCustomerNo" xml:space="preserve">
+    <value>Customer Number</value>
+  </data>
+  <data name="lblSearchRefNo" xml:space="preserve">
+    <value>Reference Number</value>
+  </data>
+  <data name="lblSearchTirePackage" xml:space="preserve">
+    <value>Seach for Tire Package</value>
+  </data>
+  <data name="lblSearchTirePackageNo" xml:space="preserve">
+    <value>TirePackageNumber</value>
+  </data>
+  <data name="lblSearchTireQuality" xml:space="preserve">
+    <value>Tire Quality</value>
+  </data>
+  <data name="lblSearchTireType" xml:space="preserve">
+    <value>Tire Type</value>
+  </data>
+  <data name="lblTireAxleNo" xml:space="preserve">
+    <value>Number of axles</value>
+  </data>
+  <data name="lblTireBrand" xml:space="preserve">
+    <value>Tire brand</value>
+  </data>
+  <data name="lblTireDepth" xml:space="preserve">
+    <value>Tire depth</value>
+  </data>
+  <data name="lblTireDimBack" xml:space="preserve">
+    <value>Tire dimension back</value>
+  </data>
+  <data name="lblTireDimFront" xml:space="preserve">
+    <value>Tire dimension front</value>
+  </data>
+  <data name="lblTirePackageNo" xml:space="preserve">
+    <value>Package number</value>
+  </data>
+  <data name="lblTireQuality" xml:space="preserve">
+    <value>Tire quality</value>
+  </data>
+  <data name="lblTireRimType" xml:space="preserve">
+    <value>Rim type</value>
+  </data>
+  <data name="lblTireSpikeNoSpike" xml:space="preserve">
+    <value>With/without spikes</value>
+  </data>
+  <data name="lblTireType" xml:space="preserve">
+    <value>Tire type</value>
+  </data>
+  <data name="lblTPVehicleSearch" xml:space="preserve">
+    <value>Søk kjøretøy</value>
+  </data>
+  <data name="lblVehMake" xml:space="preserve">
+    <value>Make</value>
+  </data>
+  <data name="lblVehMileage" xml:space="preserve">
+    <value>Mileage</value>
+  </data>
+  <data name="lblVehModel" xml:space="preserve">
+    <value>Model</value>
+  </data>
+  <data name="lblVehOrgTireDimBack" xml:space="preserve">
+    <value>Original tire dim. back</value>
+  </data>
+  <data name="lblVehOrgTireDimFront" xml:space="preserve">
+    <value>Original tire dim. front</value>
+  </data>
+  <data name="lblVehRefNo" xml:space="preserve">
+    <value>Reference number</value>
+  </data>
+  <data name="lblVehRegNo" xml:space="preserve">
+    <value>Registration number</value>
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>--- Velg ---</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>Personbil</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>2 aksler m/tvilling</value>
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ListItemResource4.Text" xml:space="preserve">
+    <value>3 aksler</value>
+  </data>
+  <data name="ListItemResource4.Value" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ListItemResource5.Text" xml:space="preserve">
+    <value>4 aksler</value>
+  </data>
+  <data name="ListItemResource5.Value" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ListItemResource6.Text" xml:space="preserve">
+    <value>5 aksler</value>
+  </data>
+  <data name="ListItemResource6.Value" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ListItemResource7.Text" xml:space="preserve">
+    <value>6 aksler</value>
+  </data>
+  <data name="ListItemResource7.Value" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="newPackageButtonResource1" xml:space="preserve">
+    <value>New Tire Package</value>
+  </data>
+  <data name="odrCreateFail" xml:space="preserve">
+    <value>Failed to Create the Order</value>
+  </data>
+  <data name="odrCreateSuccess" xml:space="preserve">
+    <value>Order sucessfully created with Order No. :</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbCreateOrder" xml:space="preserve">
+    <value>Create Order</value>
+  </data>
+  <data name="rbCreateOrderGoto" xml:space="preserve">
+    <value>Create and go to order</value>
+  </data>
+  <data name="RTlblErrorResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RTlblErrorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="searchButtonResource1.value" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="step1AddTirePAckage" xml:space="preserve">
+    <value>Add tire package details</value>
+  </data>
+  <data name="step1AddTirePAckageInfo" xml:space="preserve">
+    <value>Here you can add info regarding you tire package</value>
+  </data>
+  <data name="step1AddVehicleCustomer" xml:space="preserve">
+    <value>Add vehicle and customer</value>
+  </data>
+  <data name="step1AddVehicleCustomerInfo" xml:space="preserve">
+    <value>Here you can add vehicle and customer to the package</value>
+  </data>
+  <data name="step1CompleteTirePackage" xml:space="preserve">
+    <value>Complete tire package</value>
+  </data>
+  <data name="step1CompleteTirePackageInfo" xml:space="preserve">
+    <value>Here you can complete you tire package and move to order</value>
+  </data>
+  <data name="textCompleteInformation" xml:space="preserve">
+    <value>Print delivery report and complete the package when customer want the tires back.</value>
+  </data>
+  <data name="txtAnnotationResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAnnotationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAxleStandardDepthResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAxleStandardDepthResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAxleStandardTruckDepthResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAxleStandardTruckDepthResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTechMakeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTechMakeResource1.ToolTip" xml:space="preserve">
+    <value>Aksling 1 textbox</value>
+  </data>
+</root>

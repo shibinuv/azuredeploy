@@ -1,0 +1,23 @@
+USE [CARSDEV]
+GO
+
+/****** Object:  Table [dbo].[TBL_MAS_WEBSERVICE_RESPONSE]    Script Date: 16.04.2020 13.11.09 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[TBL_MAS_WEBSERVICE_RESPONSE](
+	[ID] [int] IDENTITY(1,1) NOT NULL,
+	[SERVICE] [varchar](100) NULL,
+	[ORDERNO] [varchar](100) NULL,
+	[TEXT] [varchar](300) NULL,
+	[STATUS] [varchar](100) NULL,
+	[DT_CREATED] [datetime] NULL,
+	[CREATED_BY] [varchar](100) NULL,
+	[DT_MODIFIED] [datetime] NULL
+) ON [PRIMARY]
+GO
+
+
