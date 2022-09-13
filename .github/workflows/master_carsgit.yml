@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'CARSGIT'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7D090AE1655F41A297BE86BAD010D216 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EF864B154840401189609690BB02EF56 }}
           package: .
